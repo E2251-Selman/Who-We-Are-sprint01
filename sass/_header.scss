@@ -1,0 +1,25 @@
+.header{
+    &__container{
+        
+        width: 75%;
+        display: flex;
+        justify-content: space-around;
+        
+        margin: 5% 10%;
+    
+        &--desc{
+            font-family: 'Poppins', sans-serif;
+            line-height: 27px;
+            width:50% ;
+
+            &:last-child p{
+                font-weight: normal;
+                margin-top: 1rem;
+                font-size: 1rem;
+                letter-spacing: 0.03rem;
+                
+            }
+        }
+    }
+
+}
